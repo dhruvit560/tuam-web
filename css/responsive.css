@@ -1,0 +1,548 @@
+/*------------------------------------------------------------mini LP-----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px){
+.container{
+	max-width: 960px;
+}
+h1{
+	font-size:45px;
+}
+/*slider*/
+.bg-1 , .bg-2{
+	padding: 310px 0;
+}
+
+/*about*/
+.about-us h2 {
+    font-size: 34px;
+}
+
+/*office*/
+.owl-carousel-4{
+	margin:0 auto;
+}
+
+/*company*/
+html .company .owl-theme .owl-nav.disabled+.owl-dots{
+	display: none;
+} 
+
+/*why-choose*/
+.why-choose ul li {
+    width: 100%;
+    margin: 25px 0px;
+}
+.choose-img{
+	position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*our-place*/
+.our-place h4 {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+/*our-team*/
+.our-team h4 {
+    font-size: 20px;
+}
+
+/*our-mission*/
+.our-mission img {
+    width: auto;
+    height: 100%;
+}
+
+}
+/*------------------------------------------------------------tablet-----------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px){
+
+.container{
+	max-width: 720px;
+}
+.carousel-caption {
+    transform: translateY(-85%);
+}
+h1{
+	font-size:34px;
+}
+nav{
+	position: relative;
+    z-index: 222;
+}
+
+/*slider*/
+html .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: -148px;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+/*slider*/
+.bg-1 , .bg-2{
+	padding: 240px 0;
+}
+.btn-info, .btn-outline-light{
+    width: 140px;
+    height: 40px;
+    padding: 0px 13px;
+}
+/*photos*/
+.photos-3 {
+    margin-top: -118px;
+}
+.main .content h3 {
+    position: relative;
+    font-size: 19px;
+}
+.main .content {
+    background-color: rgb(255, 93, 34);
+    position: absolute;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    bottom: -182px;
+    padding: 55px 35px 50px;
+    transition: all 0.5s ease 0s;
+    border-radius: 110px 100px 5px 5px;
+    color: #fff;
+}
+.main p{
+	font-size:14px;
+	margin-bottom: 8px;
+}
+.main:hover .content {
+    bottom: -34px;
+}
+.main .content h3:before {
+    bottom: -10px;
+}
+
+.about-us h2 {
+    font-size: 34px;
+}
+
+/*our-mission*/
+.our-mission img{
+    width: 100%;
+    height: auto;
+}
+.our-mission .row .col-lg-3:nth-child(1){
+	order:2;
+}
+.our-mission .row .col-lg-3:nth-child(2){
+	order:1;
+}
+
+/*our-team*/
+.our-team .col-lg-4:nth-child(3){
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/*our-place*/
+.our-place img {
+    height: auto;
+    width: 100%;
+}
+.our-place .row .col-lg-6:nth-child(1){
+	order:2;
+}
+
+
+}
+/*------------------------------------------------------------mobile L-----------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767px){
+
+.container{
+	max-width: 540px;
+}
+.carousel-caption {
+    transform: translateY(-68%);
+}
+h1{
+	font-size:30px;
+}
+nav{
+	position: relative;
+    z-index: 222;
+}
+
+/*slider*/
+html .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: -148px;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.bg-1 , .bg-2{
+	padding: 250px 0;
+}
+.carousel-caption p{
+	margin-bottom: 8px !important;
+}
+.btn-info, .btn-outline-light{
+    width: 140px;
+    height: 40px;
+    padding: 0px 13px;
+}
+/*photos*/
+
+.photos-3 {
+    margin-top: -88px;
+}
+.photos-3 .row .col-md-4:nth-child(3){
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .content h3 {
+    position: relative;
+    font-size: 19px;
+}
+.main .content {
+    background-color: rgb(255, 93, 34);
+    position: absolute;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    bottom: -163px;
+    padding: 55px 35px 50px;
+    transition: all 0.5s ease 0s;
+    border-radius: 120px 120px 5px 5px;
+    color: #fff;
+}
+.main p{
+	font-size:14px;
+	margin-bottom: 8px;
+}
+.main:hover .content {
+    bottom: -34px;
+}
+.main .content h3:before {
+    bottom: -10px;
+}
+
+.about-us h2 {
+    font-size: 30px;
+}
+
+/*office*/
+.owl-carousel-4{
+	margin:0 auto;
+}
+html .owl-carousel-4 .owl-nav .owl-next span {
+    top: 70px;
+}
+html .owl-carousel-4 .owl-nav .owl-prev span, html .owl-carousel-4 .owl-nav .owl-prev span:hover {
+     top: 70px;
+}
+
+/*companies*/
+html .owl-carousel-3 .owl-dots{
+	display: none;
+}
+
+/*why-choose*/
+.why-choose .row{
+	margin:0; 
+}
+.choose-img img {
+    height: auto;
+}
+.why-choose ul li {
+    width: 50%;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.why-choose h5{
+	font-size: 18px;
+}
+.why-choose h2 {
+    font-size: 30px;
+}
+.choose-item {
+    position: absolute;
+    content: "";
+    padding: 0 3px 0 70px;
+    top: 0;
+}
+
+/*our-plan*/
+.top-heading h2 {
+    font-size: 30px;
+}
+.top-heading p {
+    font-size: 15px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+/*testimonial*/
+.testimonial h4 {
+    width: 100%;
+    line-height: 40px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+/*our-mission*/
+
+.our-mission img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+}
+/*------------------------------------------------------------mobile P-----------------------------------------------------------*/
+@media (max-width: 575px){
+
+section{
+	margin-top:50px;
+}
+
+/*slider*/
+.container{
+	max-width: 540px;
+}
+.carousel-caption {
+    transform: translateY(-15%);
+}
+h1{
+	font-size:30px;
+}
+nav{
+	position: relative;
+    z-index: 222;
+}
+
+/*slider*/
+html .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: -148px;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.bg-1 , .bg-2{
+	padding: 150px 0;
+}
+.carousel-caption p{
+	margin-bottom: 8px !important;
+	font-size: 13px;
+}
+.btn-info, .btn-outline-light{
+    width: 140px;
+    height: 40px;
+    padding: 0px 13px;
+}
+
+.buttons .btn-outline-light{
+    margin-top:10px;
+}
+.buttons .btn-info{
+    margin-top:15px;
+}
+html .carousel-control-next, .carousel-control-prev {
+    top: 0px;
+}
+.carousel-item img{
+	padding: 100px 0;
+}
+
+/*photos*/
+.photos-3 {
+    margin-top: 50px;
+}
+.curve{
+	display: none;
+}
+
+/*join-us*/
+.join h2 {
+    width: auto;
+    font-size: 28px;
+}
+
+/*about-us*/
+.about-us .col-sm-6{
+	text-align: center;
+}
+.about-us h2{
+	font-size: 25px;
+}
+
+/*office*/
+.owl-carousel-4{
+	margin:0 auto;
+}
+html .owl-carousel-4 .owl-nav .owl-prev span, html .owl-carousel-4 .owl-nav .owl-prev span:hover {
+      left: -12px;
+    top: 65px;
+}
+html .owl-carousel-4 .owl-nav .owl-next span{
+      right: -12px;
+    top: 65px;
+}
+
+/*office*/
+.owl-carousel-4{
+	margin:0 auto;
+}
+html .owl-carousel-4 .owl-nav .owl-next span {
+    top: 70px;
+}
+html .owl-carousel-4 .owl-nav .owl-prev span, html .owl-carousel-4 .owl-nav .owl-prev span:hover {
+     top: 70px;
+}
+
+/*photos*/
+.main .content{
+    bottom: -140px;
+}
+.main .content h3:before {
+    bottom: -10px;
+}
+.main p {
+    font-size: 14px;
+    margin-top: 24px !important;
+    margin-bottom: 8px;
+}
+
+/*companies*/
+html .owl-carousel-3 .owl-dots{
+	display: none;
+}
+.company img{
+	margin: auto;
+} 
+
+/*why-choose*/
+.why-choose .row{
+	margin:0; 
+}
+.choose-img img {
+    height: auto;
+}
+.why-choose ul li {
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.why-choose .col-lg-7 {
+    padding: 15px;
+}
+
+.why-choose h5{
+	font-size: 18px;
+}
+.why-choose h2 {
+    font-size: 24px;
+}
+.choose-item {
+    position: absolute;
+    content: "";
+    padding: 0 3px 0 70px;
+    top: 0;
+}
+
+/*our-plan*/
+.top-heading h2 {
+    font-size: 30px;
+}
+.top-heading p {
+    font-size: 15px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+/*testimonial*/
+.testimonial h4 {
+    width: 100%;
+    line-height: 40px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+/*our-mission*/
+
+.our-mission img{
+    width: 100%;
+    height: auto;
+}
+.our-team .row{
+	margin:0 auto;
+}
+
+/*footer*/
+.search-btn {
+    background: var(--org);
+    padding: 16px 0;
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    text-align: center;
+    right: 0;
+    width: 100%;
+    top: 65px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-main{
+	margin-top:50px;
+}
+
+.left-copy{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: auto;
+    display: block !important;
+}
+.right p:nth-child(1){
+	margin-left: auto;
+}
+.right p:nth-child(2){
+	margin-right: auto;
+}
+}
