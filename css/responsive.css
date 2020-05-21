@@ -57,7 +57,10 @@ html .company .owl-theme .owl-nav.disabled+.owl-dots{
     width: auto;
     height: 100%;
 }
-
+/*---------------Place---------------*/
+.floor li a, .floor-btn{
+    padding: 20px 35px !important;
+}
 }
 /*------------------------------------------------------------tablet-----------------------------------------------------------*/
 @media (min-width:768px) and (max-width:991px){
@@ -74,6 +77,22 @@ h1{
 nav{
 	position: relative;
     z-index: 222;
+}
+.navbar-nav{
+    margin:20px 0;
+}
+.nav-link {
+    padding: 12px 0;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+    position: absolute;
+    left: 54px;
+    top: 21px;
+}
+.call-us{
+    display: none !important;
 }
 
 /*slider*/
@@ -94,7 +113,9 @@ html .carousel-control-next, .carousel-control-prev {
     opacity: .5;
     transition: opacity .15s ease;
 }
-
+.carousel-inner {
+    margin-top: 0;
+}
 /*slider*/
 .bg-1 , .bg-2{
 	padding: 240px 0;
@@ -165,9 +186,39 @@ html .carousel-control-next, .carousel-control-prev {
 .our-place .row .col-lg-6:nth-child(1){
 	order:2;
 }
-
-
+/*company*/
+html .owl-dots{
+    display: none;
 }
+
+/*---------------eventspage---------------*/
+.event-box:nth-child(2) .col-lg-6:nth-child(1){
+    order:2;
+}
+.event-banner {
+    padding: 150px 0;
+}
+.event-banner h2 {
+    font-size: 40px;
+}
+/*---------------Place---------------*/
+.floor li a, .floor-btn{
+    padding: 20px 30px !important;
+}
+/*---------------event-detail---------------*/
+.event-detail-text{
+    padding-left: 0px;
+    padding-top:20px;
+}
+/*---------------contact---------------*/
+.contact .row .col-lg-6:nth-child(2){
+    margin-top:150px;
+}
+.contact-form a{
+    line-height: 2.5;
+}
+}
+
 /*------------------------------------------------------------mobile L-----------------------------------------------------------*/
 @media (min-width:576px) and (max-width:767px){
 
@@ -175,7 +226,10 @@ html .carousel-control-next, .carousel-control-prev {
 	max-width: 540px;
 }
 .carousel-caption {
-    transform: translateY(-68%);
+    transform: translateY(-88%);
+}
+.carousel-inner {
+    margin-top: 0;
 }
 h1{
 	font-size:30px;
@@ -184,11 +238,28 @@ nav{
 	position: relative;
     z-index: 222;
 }
+.navbar-nav{
+    margin:20px 0;
+}
+
+
+.nav-link {
+    padding: 12px 0;
+}
+.fa-chevron-down {
+    font-size: 10px;
+    position: absolute;
+    left: 54px;
+    top: 21px;
+}
+.call-us{
+    display: none !important;
+}
 
 /*slider*/
 html .carousel-control-next, .carousel-control-prev {
     position: absolute;
-    top: -148px;
+    top: -108px;
     bottom: 0;
     z-index: 1;
     display: -ms-flexbox;
@@ -321,8 +392,36 @@ html .owl-carousel-3 .owl-dots{
     height: auto;
 }
 
-
-
+/*---------------eventspage---------------*/
+.event-box:nth-child(2) .col-lg-6:nth-child(1){
+    order:2;
+}
+.event-banner {
+    padding: 90px 0;
+}
+.event-banner h2 {
+    font-size: 32px;
+}
+/*---------------Place---------------*/
+.floor li a, .floor-btn{
+    padding: 10px 20px !important;
+    font-size: 14px;
+}
+/*---------------event-detail---------------*/
+.event-detail-text{
+    padding-left: 0px;
+    padding-top:20px;
+}
+/*---------------contact---------------*/
+.contact .row .col-lg-6:nth-child(2){
+    margin-top:150px;
+}
+.contact-form a{
+    line-height: 2.5;
+}
+.contact-text h4{
+    font-size:20px;
+}
 
 }
 /*------------------------------------------------------------mobile P-----------------------------------------------------------*/
@@ -337,15 +436,36 @@ section{
 	max-width: 540px;
 }
 .carousel-caption {
-    transform: translateY(-15%);
+    transform: translateY(0%);
+}
+.carousel-inner {
+    margin-top: 0;
+        display: flex;
+    align-items: center;
 }
 h1{
-	font-size:30px;
+	font-size:23px;
 }
 nav{
 	position: relative;
     z-index: 222;
 }
+.navbar-nav{
+    margin:20px 0;
+}
+.fa-chevron-down {
+    font-size: 10px;
+    position: absolute;
+    left: 54px;
+    top: 21px;
+}
+.nav-link {
+    padding: 12px 0;
+}
+.call-us{
+    display: none !important;
+}
+
 
 /*slider*/
 html .carousel-control-next, .carousel-control-prev {
@@ -380,9 +500,11 @@ html .carousel-control-next, .carousel-control-prev {
 
 .buttons .btn-outline-light{
     margin-top:10px;
+    width:100%;
 }
 .buttons .btn-info{
     margin-top:15px;
+    width: 100%;    
 }
 html .carousel-control-next, .carousel-control-prev {
     top: 0px;
@@ -490,19 +612,23 @@ html .owl-carousel-3 .owl-dots{
 
 /*our-plan*/
 .top-heading h2 {
-    font-size: 30px;
+    font-size: 24px;
 }
 .top-heading p {
     font-size: 15px;
     max-width: 650px;
     margin: 0 auto;
 }
+.plan-text ul li {
+    font-size: 14px;
+}
 /*testimonial*/
 .testimonial h4 {
     width: 100%;
-    line-height: 40px;
+    line-height: 30px;
     margin: 0 auto;
     font-weight: 400;
+    font-size: 18px;
 }
 
 /*our-mission*/
@@ -544,5 +670,40 @@ html .owl-carousel-3 .owl-dots{
 }
 .right p:nth-child(2){
 	margin-right: auto;
+}
+
+
+/*---------------eventspage---------------*/
+.event-box:nth-child(2) .col-lg-6:nth-child(1){
+    order:2;
+}
+.event-banner {
+    padding: 90px 0;
+}
+.event-banner h2 {
+    font-size: 32px;
+}
+/*---------------Place---------------*/
+.floor li a, .floor-btn{
+    padding: 10px 5px !important;
+    font-size: 12px;
+}
+/*---------------event-detail---------------*/
+.event-detail-text{
+    padding-left: 0px;
+    padding-top:20px;
+}
+/*---------------contact---------------*/
+.contact .row .col-lg-6:nth-child(2){
+    margin-top:150px;
+}
+.contact-form a{
+    line-height: 2.5;
+}
+.contact-text h4{
+    font-size:20px;
+}
+.contact-text p {
+    font-size: 14px;
 }
 }
